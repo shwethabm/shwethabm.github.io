@@ -1,5 +1,5 @@
     
-@media ( max-width :320px) {
+@media screen and ( max-width :320px) {
     .daddy {
         margin-left:10px;
         top:10px;
