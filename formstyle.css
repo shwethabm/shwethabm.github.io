@@ -11,6 +11,9 @@
     }
 .heading{
 height: 50px;
+background-color: black;
+    color: white;
+    text-align: center;
 }
 }
 #for{
