@@ -1,6 +1,7 @@
     
 @media screen and ( max-width :600px) {
     .daddy {
+       margin-left:-50%;
        margin-right: 30px; 
         top:30px;
         background-color: crimson;
