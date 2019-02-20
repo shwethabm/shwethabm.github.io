@@ -1,18 +1,5 @@
     
 
-#for{
-padding-left: 10px;
-}
-body{
-background: "cover.jpg";
-background-size: cover;
-background-repeat: no-repeat;
-}
-.box{
-    color:black;
-     width: 90%;
-    
-}}
 
 #for{
 padding-left: 70px; 
@@ -75,7 +62,7 @@ input{
 @media screen and ( max-width :320px) {
     .daddy {
        margin-left:-50%;
-       margin-right: 30px; 
+       margin-right: 100px; 
         top:30px;
         background-color: crimson;
         position: relative;
@@ -89,4 +76,18 @@ height: 30px;
 background-color: black;
     color: white;
     
+}
+#for{
+padding-left: 10px;
+}
+body{
+background: "cover.jpg";
+background-size: cover;
+background-repeat: no-repeat;
+}
+.box{
+    color:black;
+     width: 90%;
+    
 }}
+
