@@ -1,3 +1,13 @@
+    
+@media ( max-width :320px) {
+    .daddy {
+        margin-left:10px;
+        top:10px;
+    }
+.heading{
+height: 50px;
+}
+
 #for{
 padding-left: 70px; 
 color: black;   
@@ -55,31 +65,4 @@ input{
     padding-top: 40px;
     padding-bottom: 40px;
     
-    }
-@media ( max-width :320px) {
-    .daddy {
-         min-width: 200px;
-         min-height: 120px;
-    }
-}
-
-@media ( min-width :321px) {
-    .daddy {
-         min-width: 300px;
-         min-height: 220px;
-    }
-}
-
-@media ( min-width :640px) {
-    .daddy {
-         min-width: 480px;
-         min-height: 320px;
-    }
-}
-
-@media ( min-width :1200px) {
-    .daddy {
-         min-width: 700px;
-         min-height: 400px;
-    }
 }
