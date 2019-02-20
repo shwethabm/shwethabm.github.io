@@ -56,3 +56,30 @@ input{
     padding-bottom: 40px;
     
     }
+@media ( max-width :320px) {
+    .modal {
+         min-width: 200px;
+         min-height: 120px;
+    }
+}
+
+@media ( min-width :321px) {
+    .modal {
+         min-width: 300px;
+         min-height: 220px;
+    }
+}
+
+@media ( min-width :640px) {
+    .modal {
+         min-width: 480px;
+         min-height: 320px;
+    }
+}
+
+@media ( min-width :1200px) {
+    .modal {
+         min-width: 700px;
+         min-height: 400px;
+    }
+}
