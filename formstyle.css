@@ -1,0 +1,58 @@
+#for{
+padding-left: 70px; 
+color: black;   
+
+}
+body{
+background: "cover.jpg";
+background-size: cover;
+background-repeat: no-repeat;
+background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('cover.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.para{
+
+}
+.sub{
+    background-color: aqua;
+}
+label{
+    display: table-cell;
+    width: 20%;
+    font-size: 20px;
+    
+}
+input{
+    
+    height:35px;
+    width: 70%;
+}
+.daddy{
+    background-color: crimson;
+    
+    box-shadow: 5px 5px 12px 12px black;
+    width: 40%;
+    margin-left: 380px;
+    position: relative;
+    top: 30px;}
+.heading{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    font-size: 60px;
+    margin-left: -30px;
+    margin-top: -40px;
+}
+.box{
+    color:black;
+    
+    
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    }
