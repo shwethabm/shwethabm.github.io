@@ -1,7 +1,7 @@
     
 @media screen and ( max-width :320px) {
     .daddy {
-        margin-left:30px;
+       
         top:30px;
         background-color: crimson;
         position: relative;
@@ -10,6 +10,7 @@
     box-shadow: 5px 5px 12px 12px black;
     }
 .heading{
+font-size: 50px;
 height: 30px;
 background-color: black;
     color: white;
