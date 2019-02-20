@@ -67,9 +67,10 @@ input{
         background-color: crimson;
         position: relative;
         top: 30px;
+        right: 100px;
         
     box-shadow: 5px 5px 12px 12px black;
-    width: 100%;    }
+    width: 200%;    }
 .heading{
 font-size: 30px;
 height: 30px;
