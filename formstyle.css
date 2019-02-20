@@ -6,14 +6,17 @@
         background-color: crimson;
         position: relative;
         top: 30px;
-        left:30px;
+        left:70px;
     box-shadow: 5px 5px 12px 12px black;
     }
 .heading{
-height: 50px;
+height: 30px;
 background-color: black;
     color: white;
     
+}
+#for{
+padding-left: 10px;
 }
 }
 #for{
