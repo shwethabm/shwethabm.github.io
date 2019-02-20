@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="formstyle.css">
+    </head>
+    <body background="cover.jpg">
+        
+       <!-- <div class="heading">SIGN UP!</div><br> -->
+   <div class="daddy">    <div class="box">
+                <div class="heading">SIGN UP!</div>
+            <form id="for">
+                    <p class="para"><input type="text" id="name" value="username" required></p><br>
+                     <p class="para" > <input type="email" id="email" value="email" required></p><br>
+                     <p class="para"><input type="phone" value="phone no" id="phone"></p><br>
+                     <p class="para"><input type="password" value="password" id="demo" required></p><br>
+                     <p class="para"><input type="password" id="demo2" value="password confirm" required><p id="check"></p></p><br>
+                     <p><input class="sub" type="submit" value="sign up"></p>
+                   </form></div></div>
+        <script>
+         document.getElementById('for').addEventListener('submit', myfunct());   
+         function myfunct()
+         {
+            var message=document.getElementById("check");
+            message.innerHTML="";
+            x = document.getElementById("demo").value;
+            y = document.getElementById("demo2").value;
+            if(x!="password" && y!=password confirm")
+            try
+            {
+                if(x!=y) throw "password confirmation failed";
+            }
+            catch(err)
+            {
+                message.innerHTML = err;
+            }}
+            document.getElementById('for').addEventListener('submit', postData);
+
+ function postData(event){
+            event.preventDefault();
+            myPost={};
+            myPost["name"] = document.getElementById('name').value;
+             myPost["email"] = document.getElementById('email').value;
+             myPost["phone"] = document.getElementById('phone').value;
+             myPost["password"] = document.getElementById('demo').value;
+    
+            const options = {
+                method: 'POST',
+                headers : {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body:JSON.stringify(myPost)
+            };
+            
+            fetch('https://jsonplaceholder.typicode.com/posts', options)
+            .then(res => res.json())
+  .then(function(options) { console.log(options);})
+  .catch((err)=>console.log(err));
+  
+ }   
+        </script>
+        
+    </body>
+    </html>
