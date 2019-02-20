@@ -1,22 +1,5 @@
     
-@media screen and ( max-width :320px) {
-    .daddy {
-       margin-left:-50%;
-       margin-right: 30px; 
-        top:30px;
-        background-color: crimson;
-        position: relative;
-        top: 30px;
-        left:70px;
-    box-shadow: 5px 5px 12px 12px black;
-    width: 70%;    }
-.heading{
-font-size: 50px;
-height: 30px;
-background-color: black;
-    color: white;
-    
-}
+
 #for{
 padding-left: 10px;
 }
@@ -30,8 +13,7 @@ background-repeat: no-repeat;
      width: 90%;
     
 }}
-@media screen and (min-width : 321px)
-{
+
 #for{
 padding-left: 70px; 
 color: black;   
@@ -88,5 +70,23 @@ input{
     padding-left: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
+    
+}
+@media screen and ( max-width :320px) {
+    .daddy {
+       margin-left:-50%;
+       margin-right: 30px; 
+        top:30px;
+        background-color: crimson;
+        position: relative;
+        top: 30px;
+        left:70px;
+    box-shadow: 5px 5px 12px 12px black;
+    width: 70%;    }
+.heading{
+font-size: 50px;
+height: 30px;
+background-color: black;
+    color: white;
     
 }}
