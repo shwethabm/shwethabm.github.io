@@ -62,16 +62,16 @@ input{
 @media screen and ( max-width :320px) {
     .daddy {
        margin-left:-50%;
-       margin-right: 100px; 
+       margin-right: 300px; 
         top:30px;
         background-color: crimson;
         position: relative;
         top: 30px;
-        left:70px;
+        
     box-shadow: 5px 5px 12px 12px black;
-    width: 70%;    }
+    width: 100%;    }
 .heading{
-font-size: 50px;
+font-size: 30px;
 height: 30px;
 background-color: black;
     color: white;
