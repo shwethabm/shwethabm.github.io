@@ -1,5 +1,5 @@
     
-
+@media screen and ( min-width :601px)
 
 #for{
 padding-left: 70px; 
@@ -58,7 +58,7 @@ input{
     padding-top: 40px;
     padding-bottom: 40px;
     
-}
+}}
 @media screen and ( max-width :600px) {
     .daddy {
     margin-left: 10%;
