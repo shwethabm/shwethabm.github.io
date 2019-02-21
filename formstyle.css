@@ -83,7 +83,6 @@ body{
 background: "cover.jpg";
 background-size: cover;
 background-repeat: no-repeat;
-background: rgba(0, 0, 0, 0.7), url('cover.jpg') no-repeat center center fixed; 
 }
 .box{
     color:black;
