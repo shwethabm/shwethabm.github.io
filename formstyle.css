@@ -1,17 +1,17 @@
     
-@media screen and ( min-width :601px)
-{
+@media screen and ( min-width :601px){
+
 #for{
 padding-left: 70px; 
 color: black;   
 align-content: center;
 }
 body{
-background: "cover.jpg";
+background: "cover.jpg";    
 background-size: cover;
 background-repeat: no-repeat;
-background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url('cover.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
+background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('cover.jpg') no-repeat center center fixed; 
+-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
