@@ -15,6 +15,7 @@ background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('cover.jpg'
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-bottom: 30px;
 }
 
 .sub{
