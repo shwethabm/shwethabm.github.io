@@ -2,7 +2,7 @@
 @media screen and ( min-width :601px)
 {
 #for{
-padding-left: 80px; 
+padding-left: 70px; 
 color: black;   
 align-content: center;
 }
@@ -10,7 +10,7 @@ body{
 background: "cover.jpg";
 background-size: cover;
 background-repeat: no-repeat;
-background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.5) ), url('cover.jpg') no-repeat center center fixed; 
+background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('cover.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,7 +23,7 @@ background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.5) ), url('cover.jpg'
 
 input{
     height:35px;
-    width: 70%;
+    width: 80%;
 }
 .para{
 
@@ -35,7 +35,7 @@ input{
     background-color: crimson;
     
     box-shadow: 5px 5px 12px 12px black;
-    width: 40%;
+    width: 36%;
     margin-left: 380px;
     position: relative;
     top: 30px;}
@@ -45,14 +45,14 @@ input{
     text-align: center;
     height: 100px;
     font-size: 60px;
-    margin-left: -30px;
+    margin-left: 0px;
     margin-top: -40px;
 }
 .box{
     color:black;
     
-    
-    padding-left: 40px;
+
+    padding-left: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
     
