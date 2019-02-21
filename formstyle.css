@@ -40,6 +40,7 @@ input{
     margin-left: 380px;
     position: relative;
     top: 30px;}
+
 .heading{
     background-color: black;
     color: white;
@@ -61,7 +62,7 @@ input{
 @media screen and ( max-width :600px) {
     .daddy {
     margin-left: 10%;
-        background-color: crimson;
+        background-color : crimson;
         width: 70%;
     box-shadow: 4px 4px 10px 10px black;
     align-content: center;
