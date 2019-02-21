@@ -61,7 +61,7 @@ input{
 }
 @media screen and ( max-width :600px) {
     .daddy {
-    margin-left: 0px;
+    margin-left: 20px;
         background-color: crimson;
         width: 80%;
     box-shadow: 5px 5px 12px 12px black;
@@ -72,7 +72,7 @@ font-size: 30px;
 height: 40px;
 background-color: black;
     color: white;width : 100%;
-    margin-left: -20px;
+    margin-left: -40px;
     margin-top: 0px;
     align-content: center;
 }
